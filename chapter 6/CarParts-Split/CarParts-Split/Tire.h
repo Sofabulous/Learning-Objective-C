@@ -10,4 +10,5 @@
 
 @interface Tire : NSObject
 
-@end
+@end // Tire
+

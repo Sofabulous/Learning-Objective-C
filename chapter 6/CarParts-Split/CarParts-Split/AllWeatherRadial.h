@@ -10,4 +10,4 @@
 
 @interface AllWeatherRadial : Tire
 
-@end
+@end // AllWeatherRadial

@@ -8,6 +8,16 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Car : NSObject
+@class Tire;
+@class Engine;
 
-@end
+@interface Car : NSObject
+- (void) setEngine: (Engine*) newEngine;
+- (Engine *) engine;
+
+- (void) setTire: (Tire *) tire atIndex:(int) index;
+- (Tire *) tireAtIndex: (int) index;
+
+- (void) print;
+
+@end // Car
