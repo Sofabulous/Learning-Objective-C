@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		42FC32EF20136203005FFAD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FC32EE20136203005FFAD7 /* main.m */; };
+		422A21292019862E00B26BAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 422A21282019862E00B26BAA /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		42FC32E920136203005FFAD7 /* CopyFiles */ = {
+		422A21232019862E00B26BAA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		42FC32EB20136203005FFAD7 /* CarPars-2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CarPars-2"; sourceTree = BUILT_PRODUCTS_DIR; };
-		42FC32EE20136203005FFAD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		422A21252019862E00B26BAA /* CarParts-Split */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CarParts-Split"; sourceTree = BUILT_PRODUCTS_DIR; };
+		422A21282019862E00B26BAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		42FC32E820136203005FFAD7 /* Frameworks */ = {
+		422A21222019862E00B26BAA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,95 +38,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		42FC32E220136203005FFAD7 = {
+		422A211C2019862E00B26BAA = {
 			isa = PBXGroup;
 			children = (
-				42FC32ED20136203005FFAD7 /* CarPars-2 */,
-				42FC32EC20136203005FFAD7 /* Products */,
+				422A21272019862E00B26BAA /* CarParts-Split */,
+				422A21262019862E00B26BAA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		42FC32EC20136203005FFAD7 /* Products */ = {
+		422A21262019862E00B26BAA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				42FC32EB20136203005FFAD7 /* CarPars-2 */,
+				422A21252019862E00B26BAA /* CarParts-Split */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		42FC32ED20136203005FFAD7 /* CarPars-2 */ = {
+		422A21272019862E00B26BAA /* CarParts-Split */ = {
 			isa = PBXGroup;
 			children = (
-				42FC32EE20136203005FFAD7 /* main.m */,
+				422A21282019862E00B26BAA /* main.m */,
 			);
-			path = "CarPars-2";
+			path = "CarParts-Split";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		42FC32EA20136203005FFAD7 /* CarPars-2 */ = {
+		422A21242019862E00B26BAA /* CarParts-Split */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42FC32F220136203005FFAD7 /* Build configuration list for PBXNativeTarget "CarPars-2" */;
+			buildConfigurationList = 422A212C2019862E00B26BAA /* Build configuration list for PBXNativeTarget "CarParts-Split" */;
 			buildPhases = (
-				42FC32E720136203005FFAD7 /* Sources */,
-				42FC32E820136203005FFAD7 /* Frameworks */,
-				42FC32E920136203005FFAD7 /* CopyFiles */,
+				422A21212019862E00B26BAA /* Sources */,
+				422A21222019862E00B26BAA /* Frameworks */,
+				422A21232019862E00B26BAA /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "CarPars-2";
-			productName = "CarPars-2";
-			productReference = 42FC32EB20136203005FFAD7 /* CarPars-2 */;
+			name = "CarParts-Split";
+			productName = "CarParts-Split";
+			productReference = 422A21252019862E00B26BAA /* CarParts-Split */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		42FC32E320136203005FFAD7 /* Project object */ = {
+		422A211D2019862E00B26BAA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "SouthWest University-yukun";
 				TargetAttributes = {
-					42FC32EA20136203005FFAD7 = {
+					422A21242019862E00B26BAA = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 42FC32E620136203005FFAD7 /* Build configuration list for PBXProject "CarPars-2" */;
+			buildConfigurationList = 422A21202019862E00B26BAA /* Build configuration list for PBXProject "CarParts-Split" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 42FC32E220136203005FFAD7;
-			productRefGroup = 42FC32EC20136203005FFAD7 /* Products */;
+			mainGroup = 422A211C2019862E00B26BAA;
+			productRefGroup = 422A21262019862E00B26BAA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				42FC32EA20136203005FFAD7 /* CarPars-2 */,
+				422A21242019862E00B26BAA /* CarParts-Split */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		42FC32E720136203005FFAD7 /* Sources */ = {
+		422A21212019862E00B26BAA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42FC32EF20136203005FFAD7 /* main.m in Sources */,
+				422A21292019862E00B26BAA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		42FC32F020136203005FFAD7 /* Debug */ = {
+		422A212A2019862E00B26BAA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -181,7 +181,7 @@
 			};
 			name = Debug;
 		};
-		42FC32F120136203005FFAD7 /* Release */ = {
+		422A212B2019862E00B26BAA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -229,7 +229,7 @@
 			};
 			name = Release;
 		};
-		42FC32F320136203005FFAD7 /* Debug */ = {
+		422A212D2019862E00B26BAA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -238,7 +238,7 @@
 			};
 			name = Debug;
 		};
-		42FC32F420136203005FFAD7 /* Release */ = {
+		422A212E2019862E00B26BAA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -250,25 +250,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		42FC32E620136203005FFAD7 /* Build configuration list for PBXProject "CarPars-2" */ = {
+		422A21202019862E00B26BAA /* Build configuration list for PBXProject "CarParts-Split" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42FC32F020136203005FFAD7 /* Debug */,
-				42FC32F120136203005FFAD7 /* Release */,
+				422A212A2019862E00B26BAA /* Debug */,
+				422A212B2019862E00B26BAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		42FC32F220136203005FFAD7 /* Build configuration list for PBXNativeTarget "CarPars-2" */ = {
+		422A212C2019862E00B26BAA /* Build configuration list for PBXNativeTarget "CarParts-Split" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42FC32F320136203005FFAD7 /* Debug */,
-				42FC32F420136203005FFAD7 /* Release */,
+				422A212D2019862E00B26BAA /* Debug */,
+				422A212E2019862E00B26BAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 42FC32E320136203005FFAD7 /* Project object */;
+	rootObject = 422A211D2019862E00B26BAA /* Project object */;
 }

@@ -37,29 +37,29 @@
 
 @interface Slant6: Engine
 @end // Slant6
-
+//MARK:new subclass
+#pragma mark new subclass Slant6
 @implementation Slant6
 - (NSString *)description{
     return (@"I am a slant- 6. VROOOM!");
 } // description
 @end // Slant6
 
-@interface Car : NSObject
+@interface automoblie : NSObject
 {
     Engine *engine;
     Tire *tires[4];
 }
 - (void) print;
 - (Engine *) engine;
-- (void) setEngine;
+- (void) setEngine: (Engine*) newEngine;
 - (Tire *) tireAtIndex: (int) index;
 - (void) setTire: (Tire *) tire atIndex:(int) index;
-- (void) print;
 @end // Car
 
-@implementation Car
+@implementation automoblie
 //- (id) init {
-//    if (self = [super init]) {
+//    if (self  = [super init]) {
 //        engine = [Engine new];
 //        tires[0] = [Tire new];
 //        tires[1] = [Tire new];
@@ -80,7 +80,7 @@
 } // engine
 - (void) setEngine: (Engine *) newEngine {
     engine = newEngine;
-}
+} //setEngine
 - (Tire *) tireAtIndex: (int)index {
     if (index < 0 || index > 3){
         NSLog(@"bad index (%d) in \"tireAtIndex\"", index);
@@ -98,7 +98,7 @@
 @end // Car
 
 int main(int argc, const char * argv[]) {
-    Car *car = [Car new];
+    automoblie *car = [automoblie new];
     Engine *engine = [Slant6 new]; // 多态
     [car setEngine: engine];
     for (int i= 0; i < 4; i++) {
