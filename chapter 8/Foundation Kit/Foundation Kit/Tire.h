@@ -8,6 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface Tire : Tire
+@interface Tire : NSObject
 
-@end
+@end // Tire

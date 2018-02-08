@@ -9,5 +9,8 @@
 #import "Tire.h"
 
 @implementation Tire
-
-@end
+- (NSString *)description
+{
+    return (@"I am a tire. I last a while");//我是轮胎。够用一会儿
+} // description
+@end // Tire

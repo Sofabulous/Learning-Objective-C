@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		422F17C8201C6B6F00811946 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 422F17C7201C6B6F00811946 /* main.m */; };
+		42449AAA201F3E9F00486A9D /* Tire.m in Sources */ = {isa = PBXBuildFile; fileRef = 42449AA9201F3E9F00486A9D /* Tire.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		422F17C4201C6B6F00811946 /* Foundation Kit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Foundation Kit"; sourceTree = BUILT_PRODUCTS_DIR; };
 		422F17C7201C6B6F00811946 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42449AA8201F3E9F00486A9D /* Tire.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tire.h; sourceTree = "<group>"; };
+		42449AA9201F3E9F00486A9D /* Tire.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tire.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				422F17C7201C6B6F00811946 /* main.m */,
+				42449AA8201F3E9F00486A9D /* Tire.h */,
+				42449AA9201F3E9F00486A9D /* Tire.m */,
 			);
 			path = "Foundation Kit";
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				422F17C8201C6B6F00811946 /* main.m in Sources */,
+				42449AAA201F3E9F00486A9D /* Tire.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
