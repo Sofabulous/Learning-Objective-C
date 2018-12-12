@@ -262,6 +262,7 @@
 		422A212D2019862E00B26BAA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HLHREAEH5Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -271,6 +272,7 @@
 		422A212E2019862E00B26BAA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HLHREAEH5Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";

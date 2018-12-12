@@ -18,7 +18,10 @@
 
 #pragma mark Engine
 - (void) setEngine: (Engine *) newEngine {
+    [newEngine retain];
+    [engine release];
     engine = newEngine;
+    
 } //setEngine
 - (Engine *) engine {
     return (engine);

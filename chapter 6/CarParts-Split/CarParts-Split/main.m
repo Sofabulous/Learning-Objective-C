@@ -22,6 +22,20 @@ int main(int argc, const char * argv[]) {
         [car setTire: tire atIndex: i];
     }
     [car print];
+
+//    Car *car1 = [Car new];
+//    Car *car2 = [Car new];
+//    Engine *engine = [Engine new];
+//    [car1 setEngine:engine];
+//    NSLog(@"%lu",[engine retainCount]);
+//    [engine release];
+//    NSLog(@"%lu",[engine retainCount]);
+//    NSLog(@"%lu",[car1 engine]);
+//    NSLog(@"%lu",[car2 engine]);
+//
+//    [car2 setEngine:[car1 engine]];??? 应该改为car1
+//    NSLog(@"%lu",[engine retainCount]);
+//
     return 0;
 }
 
